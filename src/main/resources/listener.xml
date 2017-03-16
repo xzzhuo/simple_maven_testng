@@ -5,6 +5,9 @@
 	<listeners>
 		<listener class-name="com.maven.listener.MyListener" />
 		<listener class-name="com.maven.listener.MyMethodInterceptor" />
+		<listener class-name="com.maven.listener.MyHook" />
+		<listener class-name="com.maven.listener.AlterSuiteNameListener" />
+		<listener class-name="com.maven.listener.DotTestListener" />
 	</listeners>
 
   <test name="com.maven.listener - class">
