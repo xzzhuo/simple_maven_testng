@@ -21,12 +21,12 @@ import org.testng.annotations.DataProvider;
 import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 
-public class testng {
+public class TestNG {
 	
 	String m_dataSource = null;
 	String m_jdbcDriver = null;
 	
-	public testng()
+	public TestNG()
 	{
 		System.out.println("++++++++++: I'm in testng()");
 	}

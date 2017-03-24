@@ -4,13 +4,13 @@
 
   <test name="com.maven.test1 - class">
     <classes>
-      <class name="com.maven.test.testng"/>
+      <class name="com.maven.test.TestNG"/>
     </classes>
   </test>
   
   <test name="com.maven.test2 - methods">
     <classes>
-      <class name="com.maven.test.testng">
+      <class name="com.maven.test.TestNG">
 	      <methods>
 	        <include name="f1" />
 	      </methods>
@@ -33,7 +33,7 @@
 			</run>
 		</groups>
 		<classes>
-			<class name="com.maven.test.testng"/>
+			<class name="com.maven.test.TestNG"/>
 		</classes>
 	</test>
 
